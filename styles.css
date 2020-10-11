@@ -1,0 +1,43 @@
+
+  /* définition d'une nouvelle police raleway*/
+    
+body{ font-family: 'Raleway', sans-serif;}
+
+
+/*header navigation*/
+
+header
+{
+    display: flex;
+   flex-direction: row-reverse;
+}
+    
+ ul
+ {
+   list-style: none;
+   padding: 0;
+   margin:0;
+}
+li
+{
+  line-height: auto;
+  display: inline;
+  margin-left: 1.5rem;
+  margin-right: 3rem;
+}
+.Activités
+{
+  color: grey;
+  text-decoration: none;
+}
+.Hébergements
+{
+   text-decoration: none;
+   border-top: 0.1rem solid blue;
+   padding-top: 2rem;
+  }
+
+.Inscription
+{
+  text-decoration: none;
+}
