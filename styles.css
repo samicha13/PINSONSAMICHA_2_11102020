@@ -1,7 +1,10 @@
 
   /* définition d'une nouvelle police raleway*/
     
-body{ font-family: 'Raleway', sans-serif;}
+body{ font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
 
 
 /*header navigation*/
@@ -11,6 +14,11 @@ header
     display: flex;
    flex-direction: row-reverse;
 }
+
+.logo
+{
+  float: right;
+}
     
  ul
  {
@@ -19,6 +27,7 @@ header
    margin:0;
 }
 li
+
 {
   line-height: auto;
   display: inline;
@@ -26,18 +35,149 @@ li
   margin-right: 3rem;
 }
 .Activités
+
 {
   color: grey;
   text-decoration: none;
 }
 .Hébergements
+
 {
    text-decoration: none;
-   border-top: 0.1rem solid blue;
+   border-top: 0.1rem solid #0065FC;
    padding-top: 2rem;
+   color: #0065FC;
   }
 
 .Inscription
+
 {
   text-decoration: none;
+  color: #0065FC;
 }
+
+h1
+
+{
+font-size: 1rem;
+line-height: 1rem;
+margin: 0rem 6rem 0rem 0rem;
+}
+
+span
+
+{
+  color: darkgrey;
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+
+.boutton
+{
+  background-color: #0065FC;
+  color: white;
+  padding: 0.8rem 0.8rem;
+  border-radius: 0px 15px 15px 0px;
+  border:0.1rem #f2f2f2 solid;
+}
+input
+{
+  background-color: white;
+  padding: 0.8rem 0.8rem;
+  border: 0.1rem #f2f2f2 solid;
+}
+span.place-icon
+{
+  color: black;
+  padding: 0.9rem 0.8rem;
+  background-color: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+  border: 0.1rem #f2f2f2;
+}
+
+h2
+
+{
+  font-size: 1rem;
+  float: left;
+}
+
+/*FILTRES*/
+
+  div.economique
+  {
+    display: inline;
+    color: black;
+    margin: 2rem;
+    border: solid #f2f2f2 0.1rem;
+    padding: 0.6rem 3rem;
+    border-radius: 0px 25px 25px 0px;
+  }
+
+  i.fas.fa-money-bill-wave::before
+  {
+    padding: 0.7rem 0.6rem;
+    border-radius: 30px 30px 30px 30px;
+    border: solid #f2f2f2 0.1rem;
+    background-color: #deebff;
+  }
+
+  div.familial
+  {
+    display: inline;
+    color: black;
+    margin: 2rem;
+    border: solid #f2f2f2 0.1rem;
+    padding: 0.6rem 3rem ;
+    border-radius: 0px 25px 25px 0px;
+  }
+
+  i.fas.fa-child::before
+  {
+    padding: 0.6rem 0.8rem ;
+    border-radius: 30px 30px 30px 30px;
+    border: solid #f2f2f2 0.1rem;
+    background-color: #deebff;
+  }
+  div.romantique
+  {
+    display: inline;
+    color: black;
+    margin: 2rem;
+    border: solid #f2f2f2 0.1rem;
+    padding: 0.6rem 3rem;
+    border-radius: 0px 25px 25px 0px;
+  }
+  div.animaux
+  {
+    display: inline;
+    color: black;
+    margin: 2rem;
+    border: solid #f2f2f2 0.1rem;
+    padding: 0.6rem 3rem;
+    border-radius: 0px 25px 25px 0px;
+  }
+
+  div.info
+  {
+    display: inline;
+  }
+  
+  
+  div.Filtres
+
+{
+  float:initial;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: flex-start;
+  justify-self: baseline;
+  margin-left: 1.5rem;
+  margin-right: 4rem;
+  padding: 2rem;
+  color: black;
+  }
+
+  
+  
