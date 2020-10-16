@@ -12,12 +12,23 @@ body{ font-family: 'Raleway', sans-serif;
 header
 {
     display: flex;
-   flex-direction: row-reverse;
+   justify-content: space-between;
+   margin: 0 26px;
 }
 
 .logo
 {
-  float: right;
+
+}
+.menu
+{
+  align-items: flex-end;
+  height: 54px;
+  display: flex;
+}
+div.description
+{
+  margin: 2rem;
 }
     
  ul
@@ -44,7 +55,7 @@ li
 
 {
    text-decoration: none;
-   border-top: 0.1rem solid #0065FC;
+   border-top: 0.3rem solid #0065FC;
    padding-top: 2rem;
    color: #0065FC;
   }
@@ -167,7 +178,6 @@ h2
   div.Filtres
 
 {
-  float:initial;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
