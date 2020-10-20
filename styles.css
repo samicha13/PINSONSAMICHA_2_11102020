@@ -247,7 +247,7 @@ margin: 2rem;
   {
     color: black;
     flex: auto;
-   word-spacing: 0.6rem;
+   word-spacing: 1.2rem;
    letter-spacing: normal;
    padding-left: 1rem;
    
@@ -267,8 +267,8 @@ padding: 1rem 2rem 1rem 1rem;
   .hebergements-image
    {
     background-size: cover;
-    width: 180px;
-    height:100px;
+    width: 200px;
+    height:110px;
     border-radius: 1rem 1rem 0 0;
     margin-top: 0.3rem;
     display: flex;
@@ -311,8 +311,9 @@ padding: 1rem 2rem 1rem 1rem;
     
     div.hebergements-marseille
     {
-      width: 50%;
+      width: 10%;
      height: 50%;
+
     }
     
     
@@ -322,13 +323,12 @@ padding: 1rem 2rem 1rem 1rem;
     {
       background-color: #f2f2f2;
       border-radius: 1rem 1rem 1rem 1rem;
-      padding: 1rem 1.5rem 1.5rem 1.5rem;
+      padding: 1.5rem 1.5rem 1.5rem 1rem;
       margin-left: 2rem;
-      top: rem;
       
       
-      width: 40rem;
-      height: 27rem;
+      width: 45rem;
+      height: 30rem;
 
     }
 
@@ -346,7 +346,7 @@ padding: 1rem 2rem 1rem 1rem;
     div.afficher
     {
       position: absolute;
-     top: 45.2rem;
+     top: 48.5rem;
      left: 4rem;
      font-size: 0.8rem;
      font-weight: bold;
@@ -366,7 +366,7 @@ padding: 1rem 2rem 1rem 1rem;
     
   h3.titre-hebergement
   {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     line-height: 0.3rem;
   
   }
@@ -381,11 +381,11 @@ padding: 1rem 2rem 1rem 1rem;
     .item1
     {
       padding-left: 0.3rem;
-      margin-left: 0.5rem;
+      margin-left: 0.8rem;
       margin-top: 2.5rem;
       border-radius: 1rem 1rem 1rem 1rem;
       background-color: white;
-      height: 10rem;
+      height: 11rem;
       
       box-shadow: 0 4px 8px 0
       rgba(0,0,0,0.2);
@@ -395,11 +395,11 @@ padding: 1rem 2rem 1rem 1rem;
     .item2
     {
       padding-left: 0.3rem;
-      margin-left: 0.5rem;
+      margin-left: 0.8rem;
       margin-top: 2.5rem;
       border-radius: 1rem 1rem 1rem 1rem;
       background-color: white;
-      height: 10rem;
+      height: 11rem;
   
       box-shadow: 0 4px 8px 0
       rgba(0,0,0,0.2);
@@ -408,11 +408,11 @@ padding: 1rem 2rem 1rem 1rem;
   .item3
   {
   padding-left: 0.3rem;
-  margin-left: 0.5rem;
+  margin-left: 0.8rem;
   margin-top: 2.5rem;
   border-radius: 1rem 1rem 1rem 1rem;
   background-color: white;
-  height: 10rem;
+  height: 11rem;
 
   box-shadow: 0 4px 8px 0
   rgba(0,0,0,0.2);
@@ -421,10 +421,10 @@ padding: 1rem 2rem 1rem 1rem;
 .item4
 {
 padding-left: 0.3rem;
-margin-left: 0.5rem;
+margin-left: 0.8rem;
 border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
-height: 10rem;
+height: 11rem;
 margin-bottom: 2.5rem;
 
 box-shadow: 0 4px 8px 0
@@ -434,10 +434,10 @@ rgba(0,0,0,0.2);
 .item5
 {
   padding-left: 0.3rem;
-  margin-left: 0.5rem;
+  margin-left: 0.8rem;
   border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
-height: 10rem;
+height: 11rem;
 margin-bottom: 2.5rem;
 
 box-shadow: 0 4px 8px 0
@@ -445,6 +445,73 @@ rgba(0,0,0,0.2);
 }
 
 .item6
+{
+  padding-left: 0.3rem;
+  margin-left: 0.8rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+background-color: white;
+height: 11rem;
+margin-bottom: 2.5rem;
+
+box-shadow: 0 4px 8px 0
+rgba(0,0,0,0.2);
+}
+  
+/*-----------------------les plus populaires-------------------------*/
+
+/*fond gris*/
+
+.gallery-populaires
+{
+  background-color: #f2f2f2;
+  border-radius: 1rem 1rem 1rem 1rem;
+  padding: 4rem 2rem 1.5rem 1.5rem;
+ 
+  
+  
+  width: 35rem;
+  height: 40rem;
+
+}
+/*fin fond gris*/
+
+.hebergements-images-populaires
+{
+  background-size: cover;
+    width: 130px;
+    height:130px;
+    border-radius: 1rem 0rem 0 1rem;
+    margin-top: 0.3rem;
+    display: flex;
+}
+
+
+div.les-plus-populaires
+{
+display: flex;
+bottom: 30rem;
+
+}
+
+/*fond blanc images*/
+
+.item7
+{
+  padding-left: 0.25rem;
+  padding-top: 0.05rem;
+  padding-bottom: 0.25rem;
+  margin-left: 0.5rem;
+  
+  border-radius: 1rem 1rem 1rem 1rem;
+background-color: white;
+height: 8.5rem;
+margin-bottom: 2.5rem;
+
+box-shadow: 0 4px 8px 0
+rgba(0,0,0,0.2);
+}
+
+.item8
 {
   padding-left: 0.3rem;
   margin-left: 0.5rem;
@@ -456,4 +523,28 @@ margin-bottom: 2.5rem;
 box-shadow: 0 4px 8px 0
 rgba(0,0,0,0.2);
 }
-  
+
+.item9
+{
+  padding-left: 0.3rem;
+  margin-left: 0.5rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+background-color: white;
+height: 10rem;
+margin-bottom: 2.5rem;
+
+box-shadow: 0 4px 8px 0
+rgba(0,0,0,0.2);
+}
+
+
+h3.titre-hebergement-populaires
+{
+ 
+  font-size: 0.8rem;
+  line-height: 0.3rem;
+padding-left: 9rem;
+position: relative;
+top: 0rem;
+}
+
