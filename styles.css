@@ -607,11 +607,12 @@ rgba(0,0,0,0.2);
 
 h3.titre-hebergement-populaires
 {
- display: flex;
+ 
   font-size: 0.8rem;
   line-height: 0.3rem;
   padding-left: 10rem;
   padding-top: 1rem;
+  
   
 
 position: absolute;
