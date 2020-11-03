@@ -89,6 +89,7 @@ span
   line-height: 2.5rem;
   
   
+  
 }
 
 .boutton
@@ -99,22 +100,31 @@ span
   border-radius: 0px 15px 15px 0px;
   border:0.1rem #f2f2f2 solid;
   cursor: pointer;
+  margin: 0 0 0 0;
 }
 input
 {
   background-color: white;
   padding: 0.9rem 2rem;
   border: 0.1rem #f2f2f2 solid;
+  margin: 0 0 0 0;
 }
-span.place-icon
+
+
+
+div.place-icon
 {
   color: black;
-  padding: 1rem 1rem ;
-  margin: 0;
-  background-color: #f2f2f2;
-  border-radius: 15px 0px 0px 15px;
-  border: 0.1rem #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    border: 0.1rem #f2f2f2;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 h2
 
@@ -123,13 +133,24 @@ h2
   float: left;
 }
 
+form.search
+{
+  display: flex;
+height: 45px
+}
+
+
+
+   
+         
+
+
 /*------------------------------FILTRES--------------------------*/
 
 .filtre-name
 {
 margin-left: 3rem;
-font-family: 'Raleway';
-}
+font-family: 'Raleway';}
   div.economique
   {
     color: black;
@@ -386,6 +407,7 @@ padding: 1rem 2rem 1rem 1rem;
     h2.title
     {
       position: absolute;
+      display: inline-block;
       top: 24.5rem;
       left: 4rem;
       font-size: 1.2rem;
@@ -624,16 +646,18 @@ display: flex;
 
 .title-populaire
 {
-  position: absolute;
-  top: 24.5rem;
-  right: 16rem;
+  display: inline-block;
   font-size: 1.1rem;
+  position: absolute;
+  right: 16rem;
+  top:24rem;
  
 }
 
 i.fas.fa-chart-line::before
 {
   position: absolute;
+  display: inline-block;
   top: 25rem;
  right: 7rem;
   font-size: 1.1rem;
@@ -879,7 +903,15 @@ padding-bottom: 2.5rem;
 {
   font-size: 1rem;
   margin-bottom: 0.8rem;
- 
- 
-  
-}
+ }
+
+@media screen and (max-width: 650px)
+{
+ .Filtres{
+   flex-direction: column;
+ height: auto;}
+ .Hébergements{
+   height: 50px;
+ }
+   
+ }
