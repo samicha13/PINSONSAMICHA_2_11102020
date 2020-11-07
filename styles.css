@@ -4,10 +4,7 @@
 body{ font-family: 'Raleway', sans-serif;
   margin: 0;
 }
-a:link
-{
-  text-decoration: none;
-}
+
 
 /*----------header navigation-----------------*/
 
@@ -309,6 +306,7 @@ margin: 3rem;
    margin-left: 1rem;
   
     }
+    
   
   h2
     {
@@ -320,6 +318,8 @@ padding: 1rem 2rem 1rem 1rem;
   
   /*----------------------------------------Hebergements-------------------------*/
 
+
+  
   .hebergements
   {
     display: flex;
@@ -345,12 +345,20 @@ padding: 1rem 2rem 1rem 1rem;
       grid-row-gap: 5px;
       width:100%;
       
-      
+     
       grid-template-areas: 
                     "a b c"
                     "d e f";
       align-items:flex-end;
     }
+    
+    h2.title
+    {position: absolute;
+      top: 24rem;
+      left: 4rem;
+ font-size: 1.2rem;
+      }
+
     .item1 {
       grid-area: a;
       cursor: pointer;
@@ -377,13 +385,22 @@ padding: 1rem 2rem 1rem 1rem;
     }
   
     
-    div.hebergements-marseille
+    .hebergements-marseille
     {
       width: 100%;
      height: 50%;
-     display: flex;
-
-    }
+     display: grid;
+     grid-template-columns: (2,1fr);
+     grid-template-areas: "a b";
+ }
+ .gallery-hebergements
+ {
+   grid-area: a;
+ }
+   .cote-populaire
+   {
+     grid-area: b;
+   }
     
     
 /*----------fond gris---------*/
@@ -404,17 +421,7 @@ padding: 1rem 2rem 1rem 1rem;
 
     /*-----fin fond gris-----*/
 
-    h2.title
-    {
-      position: absolute;
-      display: inline-block;
-      top: 24.5rem;
-      left: 4rem;
-      font-size: 1.2rem;
-     
-     
-
-    }
+    
 
     div.afficher
     {
@@ -550,7 +557,6 @@ rgba(0,0,0,0.2);
 /*-----------------------les plus populaires-------------------------*/
 
 
-
 .gallery-populaires
 {
 
@@ -559,28 +565,39 @@ rgba(0,0,0,0.2);
   padding: 4rem 2rem 1.5rem 2rem;
   margin-right: 3rem;
   display: grid;
-  grid-template-rows: repeat(3, 1fr) ;
+  grid-template-rows: repeat(4,0fr) ;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  width:80%;
   margin-left: 3rem;
+ margin-bottom: 5rem;
+padding-top: 1.5rem;
+height: 32.5rem;
+  
  
   
   
   grid-template-areas: 
                 "a"
                 "b"
-                "c";
-  align-items:flex-end;
+                "c"
+                "d";
+  
+}
+.croissance
+{
+  grid-area: a;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
 }
 .item7
-{
- grid-area: a;
- padding-left: 0.3rem;
-  margin-left: 0.5rem;
+{grid-area: b;
+padding-left: 0.3rem;
+margin-left: 0.5rem;
 padding-bottom: 1rem;
 
-  border-radius: 1rem 1rem 1rem 1rem;
+
+border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
 height: 7rem;
 width: 23rem;
@@ -592,10 +609,9 @@ cursor: pointer;
 display: flex;
 }
 
-
 .item8
 {
-  grid-area: b;
+  grid-area: c;
   padding-left: 0.3rem;
   margin-left: 0.5rem;
 padding-bottom: 1rem;
@@ -614,7 +630,7 @@ display: flex;
 
 .item9
 {
-  grid-area: c;
+  grid-area: d;
   padding-left: 0.3rem;
   margin-left: 0.5rem;
 padding-bottom: 1rem;
@@ -644,24 +660,8 @@ display: flex;
     object-fit: cover;
 }
 
-.title-populaire
-{
-  display: inline-block;
-  font-size: 1.1rem;
-  position: absolute;
-  right: 16rem;
-  top:24rem;
- 
-}
 
-i.fas.fa-chart-line::before
-{
-  position: absolute;
-  display: inline-block;
-  top: 25rem;
- right: 7rem;
-  font-size: 1.1rem;
-}
+
 div.les-plus-populaires
 {
 display: flex;
@@ -693,6 +693,12 @@ figcaption.ordre
 {
   display: block;
   padding-left: 1.5rem;
+}
+i.fas.fa-chart-line
+{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  line-height: 2.5rem;
 }
 /*----------------------------Activites marseille---------------------------------*/
 .activites-marseille
@@ -744,9 +750,11 @@ background-size: cover;
   object-fit: cover;
   
 }
+
 .gallery-activites
 {
-  padding-top: 6rem;
+  
+  padding-top: 2rem;
 display: grid;
       grid-template-columns: repeat(4, 1fr) ;
       grid-column-gap: 2.5rem;
@@ -832,7 +840,7 @@ rgba(0,0,0,0.2);
   position: absolute;
   
    margin-left: 2rem;
-   padding-top: 4rem;
+   padding-top: 0rem;
    font-size: 1.1rem;
     }
 
@@ -854,7 +862,7 @@ padding-bottom: 2.5rem;
   grid-template-columns: repeat(3, 1fr) ;
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
-  widows: 100%;
+  width: 100%;
   
   
   grid-template-areas: 
@@ -868,7 +876,8 @@ padding-bottom: 2.5rem;
  
   margin-left: 2rem;
   margin-top: 2rem;
-  
+  grid-area: a;
+ 
 
 }
 .footer-services2
@@ -878,6 +887,7 @@ padding-bottom: 2.5rem;
   margin-top: 0;
   margin-bottom: 2rem;
   margin-left: 2rem;
+  grid-area:b;
 }
 .footer-services3
 {
@@ -887,9 +897,9 @@ padding-bottom: 2.5rem;
   margin-bottom: 2rem;
   margin-right: 8rem;
   padding-right: 20rem;
-
+  grid-area: c;
   
-
+  padding-left: 2rem;
 }
 
 .texte-footer
@@ -904,14 +914,10 @@ padding-bottom: 2.5rem;
   font-size: 1rem;
   margin-bottom: 0.8rem;
  }
+ 
+  
+ 
 
-@media screen and (max-width: 650px)
-{
- .Filtres{
-   flex-direction: column;
- height: auto;}
- .Hébergements{
-   height: 50px;
- }
-   
- }
+ 
+
+ 
