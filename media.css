@@ -11,23 +11,226 @@ header
     display: block;
     margin: 0;
     width: 100%;
+}
+.logo
+{
+   padding-top: 1rem;
+}
+ul
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.Hébergements
 
+{
+   text-decoration: none;
+   border-top: 0rem solid;
+   border-bottom: 0.3rem solid #0065FC;
+   width: 50%;
+   display: flex;
+   font-size: 1.3rem;
+   padding-bottom: 0.5rem;
+  padding-top: 0;
+  padding-left: 12rem;
+  margin-left: 6rem;
+  margin-right: 0rem;
+  
+   color: #0065FC;
+  }
+  .Activités
+
+{
+  border-bottom: 0.3rem solid #f2f2f2;
+  display: flex;
+  
+  padding-bottom: 0.5rem;
+  padding-right: 9rem;
+ 
+  font-size: 1.3rem;
+
+  width: 50%;
+  
+  
+}
+
+.Inscription
+{
+  text-decoration: none;
+  color: #0065FC;
+  position: absolute;
+  top: 2rem;
+  left: 26rem;
+ 
+font-size: 1.4rem;
+  font-weight: bold;
 }
 h1
 
 {
-font-size: 1.5rem;
-line-height: 1.5rem;
+font-size: 1.7rem;
+line-height: 2rem;
+
 margin: 0 0 0 0;
+
+
+}
+
+.description
+{
+    width: 100%;
 }
 span
 { color:black;
-font-size: 1rem;
-line-height: 2.5rem;
-    
-    
+font-size: 1.2rem;
+line-height: 3rem;
+
+  }
+
+  form.search
+  {
+      margin-top: 2rem;
+  }
+ input#text
+ {
+     padding: 0.5rem 1rem;
+ }
+button.boutton
+  {
+      visibility: hidden;
+  }
+
+  .loupe
+  {
+      visibility: visible;
+      border-radius: 15px 15px 15px 15px;
+      background-color: #0065FC;
+      border: 0.1rem #f2f2f2;
+      padding: 1.2rem 1rem 1rem 1.2rem;
+      margin-left: 0rem;
+      height: 45px;
+      
+     
+     
+  }
+  i.fab.fa-sistrix::before
+  {
+      color: white;
+  }
+div.Filtres
+  {
+      display: flex;
+      flex-direction: column;
+  }
+  div.economique
+  {
+    color: black;
+    border: solid #f2f2f2 0.1rem;
+    padding: 0.8rem 1.2rem 0.8rem 4rem;
+    border-radius: 25px 25px 25px 25px;
+    position: relative;
+    font-family: 'Raleway';
+    display: flex;
+    font-size: 1.2rem;
     
   }
+  
+  i.fas.fa-money-bill-wave::before
+  {
+    padding: 0.8rem 0.8rem;}
+  div.familial
+  {
+    color: black;
+    margin: 0rem;
+    border: solid #f2f2f2 0.1rem;
+    padding: 0.8rem 1.2rem 0.8rem 4rem;
+    border-radius: 25px 25px 25px 25px;
+    position: relative;
+    font-family: 'Raleway'; 
+    position: absolute;
+    top: 25.7rem;
+    left: 17rem;
+    font-size: 1.2rem;
+  }
+  i.fas.fa-child::before
+  {
+   
+    padding: 0.9rem 0.9rem ;
+    border-radius: 30px 30px 30px 30px;
+    border: solid #f2f2f2 0.1rem;
+    background-color: #deebff;
+   
+    color: blue;
+    position: absolute;
+    top:25.7rem;
+    right: 3.6rem;
+  }
+
+  div.romantique
+  {
+    color: black;
+    
+    border: solid #f2f2f2 0.1rem;
+    padding: 0.8rem 1.2rem 0.8rem 4rem;
+    text-justify: auto;
+    border-radius: 25px 25px 25px 25px;
+    position: relative;
+    font-family: 'Raleway';
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+    
+  }
+  i.fas.fa-heart::before
+  { 
+    padding: 0.9rem 0.9rem;}
+
+  div.animaux
+  {
+    color: black;
+    border: solid #f2f2f2 0.1rem;
+   
+    padding: 0.8rem 1.2rem 0.8rem 4rem;
+    border-radius: 25px 25px 25px 25px;
+    position: relative;
+   white-space: normal;
+ word-spacing: 0.2rem;
+ font-family: 'Raleway';
+ font-size: 1.2rem;
+    }
+    i.fas.fa-dog::before
+  {
+    padding: 0.9rem 0.9rem;
+    border-radius: 30px 30px 30px 30px;
+  }
+    div.information
+    {
+      padding-top: 2rem;
+     padding-left: 3rem;
+     padding-bottom: 2rem;
+    font-size: 1.1rem;
+    color:darkgray;
+    font-weight: normal;
+    position: relative;
+    font-family: 'Raleway';
+    margin-left: 1rem;
+    width: 22rem;      
+ 
+}
+i.fas.fa-info::before
+  {
+  
+    color: #0065FC;
+    border: solid #f2f2f2 0.1rem;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 0.6rem; 
+    padding: 0.3rem 0.5rem;
+    top:1.9rem;
+   
+    left: 1rem;
+   position: absolute;
+  
+}
 }
 
 /*partie hebergement*/
@@ -37,7 +240,7 @@ line-height: 2.5rem;
     h2.title
     {
         position: absolute;
-        top: 69rem;
+        top: 90rem;
         left:2rem;
         font-size: 1.4rem;
         
@@ -45,8 +248,8 @@ line-height: 2.5rem;
     .hebergements-image
     {
      background-size: cover;
-     width: 350px;
-     height:110px;
+     width: 460px;
+     height:160px;
      border-radius: 1rem 1rem 0 0;
      margin-right: 0.3rem;
     
@@ -65,7 +268,7 @@ line-height: 2.5rem;
       border-radius: 0 0 0 0;
       margin-left: 0;
       width: 10rem;
-      height: 90rem;
+      height: fit-content;
       margin-left: 0;
       margin-top:3rem;
       margin-bottom: 0;
@@ -86,6 +289,7 @@ line-height: 2.5rem;
       grid-area: a;
       cursor: pointer;
       margin-left: 0rem;
+      height: 270px;
       
       
     }
@@ -93,39 +297,60 @@ line-height: 2.5rem;
       grid-area: b;
       cursor: pointer;
       margin-left: 0rem;
+      height: 270px;
     }
     .item3 {
       grid-area: c;
       cursor: pointer;
       margin-left: 0rem;
+      height: 270px;
     }
+
     .item4 {
       grid-area: d;
       cursor: pointer;
       margin-left: 0rem;
       margin-bottom: 0rem;
       margin-top: 0rem;
+      height: 270px;
     }
     .item5 {
       grid-area: e;
       cursor: pointer;
 margin-left: 0rem;
 margin-bottom: 0rem;
+height: 270px;
     }
     .item6 {
       grid-area: f;
       cursor: pointer;
       margin-left: 0rem;
+      height: 270px;
     }
     div.afficher
     {
       position: absolute;
-     top: 148rem;
+     top: 201rem;
      left: 2rem;
-     font-size: 1.1rem;
+    
+     font-size: 1.3rem;
      font-weight: bold;
      
     
+    }
+    h3.titre-hebergement
+    {
+        font-size: 1.4rem;
+    }
+    p.caption
+    {
+        font-size: 1.3rem;
+        line-height: 0.6rem;
+    }
+    div.grade-stars
+    {
+        font-size: 1rem;
+        
     }
  }
  /*partie populaire*/
@@ -165,8 +390,8 @@ margin-bottom: 0rem;
   margin-left: 0rem;
  margin-bottom: 0.5rem;
 padding-top: 1.5rem;
-height: 32.5rem;
-width: 24.1rem;
+height: 40rem;
+width: 31.5rem;
   
  
   
@@ -178,6 +403,17 @@ width: 24.1rem;
                 "d";
   
 }
+.hebergements-images-populaires
+{
+  background-size: cover;
+    width: 155px;
+    height:166px;
+    border-radius: 1rem 0rem 0 1rem;
+    margin-top: 0.3rem;
+    display: flex;
+    object-fit: cover;
+}
+
 .croissance
 {
   grid-area: a;
@@ -187,25 +423,25 @@ width: 24.1rem;
 
 i.fas.fa-chart-line::before
 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 h2.title-populaire
 {
-font-size: 1.5rem;
+font-size: 1.6rem;
 }
 
 .item7
 {grid-area: b;
 
-margin-left: 0rem;
+margin-left: 0.5rem;
 padding-bottom: 1rem;
 
 
 border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
-height: 7rem;
-width: 24rem;
+height: 10rem;
+width: 29rem;
 margin-bottom: 2rem;
 
 box-shadow: 0 4px 8px 0
@@ -218,13 +454,13 @@ display: flex;
 {
   grid-area: c;
  
-  margin-left: 0rem;
+  margin-left: 0.5rem;
 padding-bottom: 1rem;
 
   border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
-height: 7rem;
-width: 24rem;
+height: 10rem;
+width: 29rem;
 margin-bottom: 2rem;
 cursor: pointer;
 
@@ -237,14 +473,14 @@ display: flex;
 {
   grid-area: d;
   
-  margin-left: 0rem;
+  margin-left: 0.5rem;
 padding-bottom: 1rem;
 
 
   border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
-height: 7rem;
-width: 24rem;
+height: 10rem;
+width: 29rem;
 margin-bottom: 2rem;
 
 box-shadow: 0 4px 8px 0
@@ -253,10 +489,40 @@ cursor: pointer;
 display: flex;
 
 }
+h3.titre-hebergement-populaires
+{
+font-size: 1.4rem;
+line-height: 1.5rem;
+}
+
+p.caption-populaires
+{  
+font-size: 1.3rem;
+line-height: 0rem;
+}
+
+.grade-stars-populaires
+{
+  color:#0065FC;
+  
+  display: flex;
+  font-size: 1.2rem;
+  padding-top: 1.8rem;
+  
+}
  /*----------partie activites-------------*/
 
+ h2.title-section-deux
+ {
+     font-size: 1.7rem;
+ }
+ h3.titre-activites
+ {
+     font-size: 1.4rem;
+ }
 .gallery-activites
 {
+    margin-top: 3rem;
   grid-template-columns: repeat(1,6fr);
   grid-template-areas: 
                        "a"
@@ -265,11 +531,11 @@ display: flex;
                        "d"
                        "e"
                        "f";
- grid-row-gap: 2rem;
+ grid-row-gap: 1.5rem;
 }
 .port {
     grid-area: a;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
   margin-right: 8rem;
     
     border-radius: 1rem 1rem 1rem 1rem;
@@ -279,64 +545,70 @@ cursor: pointer;
 
 box-shadow: 0 4px 8px 0
 rgba(0,0,0,0.2);
+height: 235px;
   }
   .fort {
     grid-area: b;
     border-radius: 1rem 1rem 1rem 1rem;
     background-color: white; 
     cursor: pointer;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
     margin-right: 8rem;
     
     
     box-shadow: 0 4px 8px 0
     rgba(0,0,0,0.2);
+    height: 235px;
   }
   .iles {
     grid-area: c;
     border-radius: 1rem 1rem 1rem 1rem;
     background-color: white;
    cursor: pointer;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
     margin-right: 8rem;
     
     
     box-shadow: 0 4px 8px 0
     rgba(0,0,0,0.2);
+    height: 235px;
   }
   .calanques {
     grid-area: d;
     border-radius: 1rem 1rem 1rem 1rem;
     background-color: white;
    cursor: pointer;
-   margin-left: 1rem;
+   margin-left: 2.5rem;
    margin-right: 8rem;
     
     
     box-shadow: 0 4px 8px 0
     rgba(0,0,0,0.2);
+    height: 235px;
   }
   .garde {
     grid-area: e;
     border-radius: 1rem 1rem 1rem 1rem;
     background-color: white;
     cursor: pointer;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
     margin-right: 8rem;
     
     box-shadow: 0 4px 8px 0
     rgba(0,0,0,0.2); 
     margin-bottom: 0rem;
+    height: 235px;
   }
   .parc{
     grid-area: f;
     border-radius: 1rem 1rem 1rem 1rem;
     background-color: white;
     cursor: pointer;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
     margin-right: 8rem;
     box-shadow: 0 4px 8px 0
     rgba(0,0,0,0.2);
+    height: 235px;
    
   }
 
@@ -344,8 +616,8 @@ rgba(0,0,0,0.2);
 .activites-image-grande
 {
 background-size: cover;
-width: 370px;
-height:155px;
+width: 460px;
+height:170px;
 border-radius: 1rem 1rem 0 0;
 display: flex;
 object-fit: cover;
@@ -353,8 +625,8 @@ cursor: pointer;
 }
 .activites-image
 { background-size: cover;
-  width: 370px;
-  height:155px;
+  width: 460px;
+  height:170px;
   border-radius: 1rem 1rem 0 0;
   display: flex;
   object-fit: cover;
@@ -365,8 +637,8 @@ cursor: pointer;
 .activites-image-fort
 {
 background-size: cover;
-  width: 370px;
-  height:155px;
+  width: 460px;
+  height:170px;
   border-radius: 1rem 1rem 0 0;
   display: flex;
   object-fit: cover;
@@ -378,8 +650,8 @@ background-size: cover;
 .activites-image-iles
 {
 background-size: cover;
-  width: 370px;
-  height:155px;
+  width: 460px;
+  height:170px;
   border-radius: 1rem 1rem 0 0;
   display: flex;
   object-fit: cover;
@@ -402,7 +674,7 @@ background-size: cover;
     grid-column-gap: 0rem;
     grid-row-gap: 1rem;
     height: auto;
-width: 26rem;}
+    width: 33.5rem;}
    
 
     .footer-services1
@@ -412,16 +684,14 @@ width: 26rem;}
      
       margin-left: 2rem;
       margin-top: 2rem;
-      grid-area: a;
-     
-    
-    }
+      grid-area: a;}
+
     .footer-services2
     {
       grid-area:b;
       width: max-content;
       margin-top: 0;
-      margin-bottom: 2rem;
+      margin-bottom: 0rem;
       margin-left: 2rem;
       grid-area:b;
     }
@@ -434,20 +704,16 @@ width: 26rem;}
       
       padding-right: 0rem;
       grid-area: c;
-      
-      padding-left: 2rem;
-    }
+      padding-left: 2rem;}
+
     .texte-footer
     {
      font-size: 1.1rem;
      margin-left: 1rem;
-     line-height: 1rem;
-    
-    }
+     line-height: 1rem;}
     .titre-footer
     {
       font-size: 1.3rem;
       margin-bottom: 0.8rem;
      }
-
-    } 
+    }

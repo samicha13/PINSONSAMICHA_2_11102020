@@ -122,7 +122,10 @@ div.place-icon
     align-items: center;
 }
 
-
+.loupe
+{
+  visibility: hidden;
+}
 h2
 
 {
