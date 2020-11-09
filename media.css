@@ -94,29 +94,32 @@ line-height: 3rem;
   }
  input#text
  {
-     padding: 0.5rem 1rem;
+     padding: 0.5rem 1.5rem;
+     
  }
 button.boutton
   {
-      visibility: hidden;
+     display: none;
   }
 
   .loupe
   {
       visibility: visible;
-      border-radius: 15px 15px 15px 15px;
-      background-color: #0065FC;
       border: 0.1rem #f2f2f2;
-      padding: 1.2rem 1rem 1rem 1.2rem;
-      margin-left: 0rem;
-      height: 45px;
-      
-     
-     
+      display: inline-flex;
+      margin-top: 1rem;
+      left: 4rem;
+  
   }
   i.fab.fa-sistrix::before
   {
       color: white;
+      height: fit-content;
+      padding: 1rem 1rem;
+      background-color: #0065FC;
+      border-radius: 15px 15px 15px 15px;
+      margin: 0 0 0 0;
+    
   }
 div.Filtres
   {
@@ -390,7 +393,7 @@ height: 270px;
   margin-left: 0rem;
  margin-bottom: 0.5rem;
 padding-top: 1.5rem;
-height: 40rem;
+height: 42rem;
 width: 31.5rem;
   
  

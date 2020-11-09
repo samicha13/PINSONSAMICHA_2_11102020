@@ -124,7 +124,7 @@ div.place-icon
 
 .loupe
 {
-  visibility: hidden;
+  display: none;
 }
 h2
 
