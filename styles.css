@@ -3,6 +3,7 @@
     
 body{ font-family: 'Raleway', sans-serif;
   margin: 0;
+  width: 100%;
 }
 
 
@@ -290,6 +291,7 @@ div.info
    font-family: 'Raleway';
    margin-left: 1rem;
    
+  
   }
 
   p.info
@@ -326,12 +328,14 @@ padding: 1rem 2rem 1rem 1rem;
   .hebergements
   {
     display: flex;
+   
+   
   }
   .hebergements-image
    {
     background-size: cover;
-    width: 225px;
-    height:110px;
+    width: 14.0625rem;
+    height:6.875rem;
     border-radius: 1rem 1rem 0 0;
     margin-top: 0.3rem;
     margin-right: 0.3rem;
@@ -344,10 +348,10 @@ padding: 1rem 2rem 1rem 1rem;
     {
       display: grid;
       grid-template-columns: repeat(3, 1fr) ;
-      grid-column-gap: 25px;
-      grid-row-gap: 5px;
+      grid-column-gap: 1.5625rem;
+      grid-row-gap: 0.3125px;
       width:100%;
-      
+        
      
       grid-template-areas: 
                     "a b c"
@@ -566,15 +570,17 @@ rgba(0,0,0,0.2);
   background-color: #f2f2f2;
   border-radius: 1rem 1rem 1rem 1rem;
   padding: 4rem 2rem 1.5rem 2rem;
-  margin-right: 3rem;
+  
   display: grid;
   grid-template-rows: repeat(4,0fr) ;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  margin-left: 3rem;
+  margin-left: 2.5rem;
  margin-bottom: 5rem;
 padding-top: 1.5rem;
 height: 32.5rem;
+margin-right: 2rem;
+width: 90%;
   
  
   
@@ -596,14 +602,13 @@ height: 32.5rem;
 .item7
 {grid-area: b;
 padding-left: 0.3rem;
-margin-left: 0.5rem;
 padding-bottom: 1rem;
 
 
 border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
 height: 7rem;
-width: 23rem;
+width: 100%;
 margin-bottom: 2rem;
 
 box-shadow: 0 4px 8px 0
@@ -616,13 +621,13 @@ display: flex;
 {
   grid-area: c;
   padding-left: 0.3rem;
-  margin-left: 0.5rem;
+
 padding-bottom: 1rem;
 
   border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
 height: 7rem;
-width: 23rem;
+width:100%;
 margin-bottom: 2rem;
 cursor: pointer;
 
@@ -635,14 +640,14 @@ display: flex;
 {
   grid-area: d;
   padding-left: 0.3rem;
-  margin-left: 0.5rem;
+  
 padding-bottom: 1rem;
 
 
   border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
 height: 7rem;
-width: 23rem;
+width: 100%;
 margin-bottom: 2rem;
 
 box-shadow: 0 4px 8px 0
@@ -655,8 +660,8 @@ display: flex;
 .hebergements-images-populaires
 {
   background-size: cover;
-    width: 135px;
-    height:120px;
+    width: 45%;
+    height:7.5rem;
     border-radius: 1rem 0rem 0 1rem;
     margin-top: 0.2rem;
     display: flex;

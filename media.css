@@ -33,8 +33,8 @@ ul
    font-size: 1.3rem;
    padding-bottom: 0.5rem;
   padding-top: 0;
-  padding-left: 12rem;
-  margin-left: 6rem;
+  padding-left: 8rem;
+  margin-left: 5rem;
   margin-right: 0rem;
   
    color: #0065FC;
@@ -46,7 +46,7 @@ ul
   display: flex;
   
   padding-bottom: 0.5rem;
-  padding-right: 9rem;
+  padding-right: 5rem;
  
   font-size: 1.3rem;
 
@@ -151,23 +151,26 @@ div.Filtres
     border-radius: 25px 25px 25px 25px;
     position: relative;
     font-family: 'Raleway'; 
-    position: absolute;
-    top: 25.7rem;
-    left: 17rem;
+    margin-left: 15rem;
+    display:flex ;
+    bottom: 3rem;
+   
     font-size: 1.2rem;
   }
   i.fas.fa-child::before
   {
-   
+   bottom: 13rem;
     padding: 0.9rem 0.9rem ;
     border-radius: 30px 30px 30px 30px;
     border: solid #f2f2f2 0.1rem;
     background-color: #deebff;
+    position: absolute;
+    display: flex;
+    margin-left: 15rem;
+  
+    
    
     color: blue;
-    position: absolute;
-    top:25.7rem;
-    right: 3.6rem;
   }
 
   div.romantique
@@ -251,7 +254,7 @@ i.fas.fa-info::before
     .hebergements-image
     {
      background-size: cover;
-     width: 460px;
+     width: 98%;
      height:160px;
      border-radius: 1rem 1rem 0 0;
      margin-right: 0.3rem;
@@ -265,7 +268,7 @@ i.fas.fa-info::before
       grid-column-gap: 0px;
       grid-row-gap:1rem;
       grid-template-rows:  repeat(6,0fr);
-      width:100%;
+      width:90%;
      
       background-color:white;
       border-radius: 0 0 0 0;
@@ -276,6 +279,7 @@ i.fas.fa-info::before
       margin-top:3rem;
       margin-bottom: 0;
       padding-bottom: 0;
+      margin-right: 2rem;
       
 
       
@@ -293,6 +297,7 @@ i.fas.fa-info::before
       cursor: pointer;
       margin-left: 0rem;
       height: 270px;
+      width: 98%;
       
       
     }
@@ -301,12 +306,14 @@ i.fas.fa-info::before
       cursor: pointer;
       margin-left: 0rem;
       height: 270px;
+      width: 98%;
     }
     .item3 {
       grid-area: c;
       cursor: pointer;
       margin-left: 0rem;
       height: 270px;
+      width: 98%;
     }
 
     .item4 {
@@ -316,6 +323,7 @@ i.fas.fa-info::before
       margin-bottom: 0rem;
       margin-top: 0rem;
       height: 270px;
+      width: 98%;
     }
     .item5 {
       grid-area: e;
@@ -323,12 +331,14 @@ i.fas.fa-info::before
 margin-left: 0rem;
 margin-bottom: 0rem;
 height: 270px;
+width: 98%;
     }
     .item6 {
       grid-area: f;
       cursor: pointer;
       margin-left: 0rem;
       height: 270px;
+      width: 98%;
     }
     div.afficher
     {
@@ -720,3 +730,13 @@ background-size: cover;
       margin-bottom: 0.8rem;
      }
     }
+
+
+    /*---------------------4k-----------------------*/
+    @media screen and (min-width:1450px)
+    {
+    .container
+    {
+        width: 1400px;
+    }
+}
