@@ -25,10 +25,160 @@
 /*------------------tel--------------------------*/
 @media screen and (min-width:374px) and (max-width:425px)
 {
+  
+    header
+    {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    .logo
+    {
+       padding-top: 1rem;
+    }
+    ul
+    {
+        display: flex;
+        width: 100%;
+        justify-content:none;
+    }
+    .Hébergements
+    
+    {
+       text-decoration: none;
+       border-top: 0rem solid;
+       border-bottom: 0.3rem solid #0065FC;
+       width: 50%;
+       display: flex;
+       font-size: 1.3rem;
+       padding-bottom: 0.5rem;
+      padding-top: 0;
+      padding-left: 8rem;
+      margin-left: 5rem;
+      margin-right: 0rem;
+      
+       color: #0065FC;
+      }
+      .Activités
+    
+    {
+      border-bottom: 0.3rem solid #f2f2f2;
+      display: flex;
+      
+      padding-bottom: 0.5rem;
+      padding-right: 5rem;
+     
+      font-size: 1.3rem;
+    
+      width: 50%;
+      
+      
+    }
+    
+    .Inscription
+    {
+      text-decoration: none;
+      color: #0065FC;
+      position: absolute;
+      top: 2rem;
+      left: 18rem;
+     
+    font-size: 1.4rem;
+      font-weight: bold;
+    }
+    
+
+  h1
+
+{
+font-size: 1.1rem;
+line-height: 2rem;
+width: 15rem;
+margin: 0 0 0 0;
+
+
+}
+
+.description
+{
+    width: 20rem;
+}
+span
+{ color:black;
+font-size: 0.9rem;
+line-height: 3rem;
+
+  }
+
+  form.search
+  {
+      margin-top: 2rem;
+  }
+ input#text
+ {
+     padding: 0.5rem 1.5rem;
+     
+ }
+button.boutton
+  {
+     display: none;
+  }
+
+  .loupe
+  {
+      visibility: visible;
+      border: 0.1rem #f2f2f2;
+      display: inline-flex;
+      margin-top: 1rem;
+      left: 4rem;
+  
+  }
+  i.fab.fa-sistrix::before
+  {
+      color: white;
+      height: fit-content;
+      padding: 1rem 1rem;
+      background-color: #0065FC;
+      border-radius: 15px 15px 15px 15px;
+      margin: 0 0 0 0;
+    
+  }
+div.Filtres
+  {
+      display: grid;
+    grid-template-rows: (2,1fr);
+    grid-template-areas: "a a"
+                         "b c"
+                         "d"
+                         "e";
+    grid-row-gap: 1rem;
+  }
+  h2
+  {
+    grid-area: a;
+  }
+div.economique
+{
+  grid-area: b;
+}
+div.familial
+{
+  grid-area: c;
+}
+div.romantique
+{
+  grid-area: d;
+}
+div.animaux
+{
+  grid-area: e;
+}
+
   div.les-plus-populaires
   {
     width: 100vw;
     margin-right: 0rem;
+    height: 34rem;
   }
   .cote-populaire
   {
@@ -36,7 +186,7 @@
   }
   .gallery-populaires
 {
-  width: 83vw;
+  width: 85vw;
   margin-left: 0rem;
   margin-right: 0rem;
 }
@@ -58,23 +208,30 @@ width: 82vw;
   width: 30vw;
 }
 
+h2.title
+{
+  top:75.5rem;
+  left: 3rem;
+}
 .gallery-hebergements
     {
       display: grid;
       grid-column-gap: 0px;
       grid-row-gap:1rem;
-      grid-template-rows:  repeat(6,1fr);
+      
+      grid-template-columns: repeat(1,1fr);
       width:90%;
      
       background-color:white;
       border-radius: 0 0 0 0;
       margin-left: 0;
-      width: 30rem;
+      width: 20rem;
       height: fit-content;
       margin-left: 0;
       margin-top:3rem;
       margin-bottom: 0;
       padding-bottom: 0;
+      padding-right: 0rem;
       
       
 
@@ -88,56 +245,195 @@ width: 82vw;
                     "f";
       align-items:flex-end;
     }
+    .hebergements-image
+    {
+      width: 75vw;
+    }
     .item1 {
       grid-area: a;
-      cursor: pointer;
-      margin-left: 0rem;
-      height: 270px;
-      width: 98%;
-      
-      
+      width: 77vw;
+    
+    
     }
     .item2 {
       grid-area: b;
-      cursor: pointer;
-      margin-left: 0rem;
-      height: 270px;
-      width: 98%;
+      
+      width: 77vw;
     }
     .item3 {
       grid-area: c;
-      cursor: pointer;
-      margin-left: 0rem;
-      height: 270px;
-      width: 98%;
+      width: 77vw;
+    
     }
 
     .item4 {
       grid-area: d;
-      cursor: pointer;
-      margin-left: 0rem;
+      width: 77vw;
       margin-bottom: 0rem;
-      margin-top: 0rem;
-      height: 270px;
-      width: 98%;
+      
     }
     .item5 {
       grid-area: e;
-      cursor: pointer;
-margin-left: 0rem;
-margin-bottom: 0rem;
-height: 270px;
-width: 98%;
+      width: 77vw;
+      margin-bottom: 0rem;
+  
     }
     .item6 {
       grid-area: f;
-      cursor: pointer;
-      margin-left: 0rem;
-      height: 270px;
-      width: 98%;
+      width: 77vw;
+      margin-bottom: 0rem;
+    
     }
 
+div.afficher
+{
+  top: 155rem;
+  left: 3rem;
+  font-size: 1.2rem;
+  
 }
+    .gallery-activites
+    {
+        margin-top: 8rem;
+      grid-template-columns: repeat(1,6fr);
+      grid-template-areas: 
+                           "a"
+                           "b"
+                           "c"
+                           "d"
+                           "e"
+                           "f";
+     grid-row-gap: 1.5rem;
+    }
+    .port {
+      grid-area: a;
+      width: 77vw;
+      
+  height: 235px;
+    }
+    .fort {
+      grid-area: b;
+      width: 77vw;
+      height: 235px;
+      margin-left: 2rem;
+    }
+    .iles {
+      grid-area: c;
+      width: 77vw;
+     margin-left: 2rem;
+      height: 235px;
+    }
+    .calanques {
+      grid-area: d;
+      width: 77vw;
+      height: 235px;
+      margin-left: 2rem;
+    }
+    .garde {
+      grid-area: e;
+     width: 77vw;
+      height: 235px;
+      margin-left: 2rem;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+    .parc{
+      grid-area: f;
+     width: 77vw;
+      height: 235px;
+      margin-left: 2rem;
+      margin-right: 0;
+     
+    }    
+
+.activites-image
+{
+  width: 77vw;
+  height: 175px;
+}
+
+.activites-image-grande
+{
+  width: 77vw;
+  height: 175px;
+}
+.activites-image-iles
+{
+  width: 77vw;
+  height: 175px;
+}
+.activites-image-fort
+{
+  width: 77vw;
+  height: 175px;
+}
+
+
+.contenu-footer
+{
+  grid-template-columns: repeat(1, 3fr) ;
+  grid-template-areas: 
+  "a"
+  "b"
+  "c";
+
+  grid-column-gap: 0rem;
+  grid-row-gap: 1rem;
+  height: auto;
+  width: 100vw;}
+ 
+
+  .footer-services1
+  {
+    grid-area: a;
+    width: max-content;
+   
+    margin-left: 2rem;
+    margin-top: 2rem;
+    grid-area: a;}
+
+  .footer-services2
+  {
+    grid-area:b;
+    width: max-content;
+    margin-top: 0;
+    margin-bottom: 0rem;
+    margin-left: 2rem;
+    grid-area:b;
+  }
+  .footer-services3
+  {
+    grid-area: c;
+    width: max-content;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    
+    padding-right: 0rem;
+    grid-area: c;
+    padding-left: 2rem;}
+
+  .texte-footer
+  {
+   font-size: 1.1rem;
+   margin-left: 1rem;
+   line-height: 1rem;}
+  .titre-footer
+  {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+   }
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -147,7 +443,14 @@ width: 98%;
 
 @media screen and (min-width:426px) and (max-width:768px)
  {
-
+div.animaux
+{
+  margin-top: 1rem;
+}
+i.fas.fa-dog::before
+{
+  margin-top: 1rem;
+}
 .gallery-populaires
 {
   width: 80vw;
@@ -302,6 +605,61 @@ width: 40vw;}
    height:200px;
   
  }
+ .contenu-footer
+{
+  grid-template-columns: repeat(1, 3fr) ;
+  grid-template-areas: 
+  "a"
+  "b"
+  "c";
+
+  grid-column-gap: 0rem;
+  grid-row-gap: 1rem;
+  height: auto;
+  width: 100vw;}
+ 
+
+  .footer-services1
+  {
+    grid-area: a;
+    width: max-content;
+   
+    margin-left: 18vw;
+    margin-top: 2rem;
+    grid-area: a;}
+
+  .footer-services2
+  {
+    grid-area:b;
+    width: max-content;
+    margin-top: 0;
+    margin-bottom: 0rem;
+    margin-left: 18vw;
+    grid-area:b;
+  }
+  .footer-services3
+  {
+    grid-area: c;
+    width: max-content;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    
+    padding-right: 0rem;
+    grid-area: c;
+    margin-left: 18vw;
+  padding-left: 0;}
+
+
+  .texte-footer
+  {
+   font-size: 1.1rem;
+   margin-left: 1rem;
+   line-height: 1rem;}
+  .titre-footer
+  {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+   }
  }
 
   /*----------ordi adaptation-----------*/
@@ -629,4 +987,69 @@ h2.titre-footer
     .hebergements-image
     {
       width: 8.8vw;}
+      .gallery-hebergements
+      {
+        width: 30vw;
+      }
+      .gallery-activites
+      {
+        grid-row-gap: 1rem;
+      }
+
+      .port {
+      
+        margin-left: 2rem;
+        width: 12vw;
+       }
+      .fort {
+        
+        width: 12vw; 
+      }
+      .iles 
+      {
+      
+       width: 12vw;
+        
+      }
+      .calanques {
+       
+       width: 12vw;
+        
+      
+      }
+       .garde {
+        width: 12vw;
+        margin-bottom: 0;
+
+       }
+       .parc{
+        
+        width: 12vw;
+        
+      }
+  
+      .activites-image-grande
+  {
+  
+  width: 12vw;
+  
+  }
+  .activites-image
+  { 
+    width: 12vw;
+    height:150px;
+  }
+  
+  .activites-image-fort
+  {
+    width: 12vw;
+    height:150px;
+  }
+  
+  .activites-image-iles
+  {
+    width: 12vw;
+    height:150px;
+   
     }
+  }
