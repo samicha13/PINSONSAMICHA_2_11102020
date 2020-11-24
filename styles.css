@@ -349,47 +349,71 @@ padding: 1rem 2rem 1rem 1rem;
     {
       display: grid;
       grid-template-columns: repeat(3, 1fr) ;
+     
       grid-column-gap: 1.5625rem;
-      grid-row-gap: 0.3125px;
+      grid-row-gap: 1rem;
       
         
      
       grid-template-areas: 
-                    "a b c"
-                    "d e f";
+                    "a a a"
+                    "b c d"
+                    "e f g"
+                    "h h h";
       align-items:flex-end;
     }
     
-    h2.title
-    {position: absolute;
-      top: 24rem;
-      left: 4rem;
- font-size: 1.2rem;
-      }
-
+   
+.titre-partie1
+{
+   grid-area: a;
+   font-size: 1.3rem;
+   padding-bottom: 0.5rem;
+}
     .item1 {
-      grid-area: a;
-      cursor: pointer;
-    }
-    .item2 {
       grid-area: b;
       cursor: pointer;
+      margin-top: 0;
+      margin-bottom: 0;
     }
-    .item3 {
+    .item2 {
       grid-area: c;
       cursor: pointer;
+      margin-top: 0;
+      margin-bottom: 0;
     }
-    .item4 {
+    .item3 {
       grid-area: d;
       cursor: pointer;
+      margin-top: 0;
+      margin-bottom: 0;
     }
-    .item5 {
+    .item4 {
       grid-area: e;
       cursor: pointer;
+      margin-top: 0;
+      margin-bottom: 0;
     }
-    .item6 {
+    .item5 {
       grid-area: f;
       cursor: pointer;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .item6 {
+      grid-area: g;
+      cursor: pointer;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .afficher
+    {
+      grid-area: h;
+      margin-left: 0rem;
+      font-weight: bold;
+      font-size: 1rem;
+      padding-bottom: 2rem;
+      padding-top: 2.5rem;
     }
   
     
@@ -432,15 +456,7 @@ padding: 1rem 2rem 1rem 1rem;
 
     
 
-    div.afficher
-    {
-      position: absolute;
-     top: 55rem;
-     left: 4rem;
-     font-size: 0.9rem;
-     font-weight: bold;
-     padding-left: 0.3rem;
-    }
+    
 
     .grade-stars
     {
@@ -481,7 +497,7 @@ padding: 1rem 2rem 1rem 1rem;
     {
       padding-left: 0.3rem;
       margin-left: 0.8rem;
-      margin-top: 1.2rem;
+      
      
       
       
@@ -526,7 +542,7 @@ width: 16vw;
 {
 padding-left: 0.3rem;
 margin-left: 0.8rem;
-margin-bottom: 5rem;
+
 
 border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
@@ -544,7 +560,7 @@ rgba(0,0,0,0.2);
   border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
 height: 11.5rem;
-margin-bottom: 5rem;
+
 width: 16vw;
 box-shadow: 0 4px 8px 0
 rgba(0,0,0,0.2);
@@ -557,7 +573,7 @@ rgba(0,0,0,0.2);
   border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
 height: 11.5rem;
-margin-bottom: 5rem;
+
 width: 16vw;
 
 box-shadow: 0 4px 8px 0
@@ -566,7 +582,10 @@ rgba(0,0,0,0.2);
   
 /*-----------------------les plus populaires-------------------------*/
 
-
+.title-populaire
+{
+  font-size: 1.2rem;
+}
 .gallery-populaires
 {
 
@@ -853,7 +872,7 @@ rgba(0,0,0,0.2);
     {
   position: absolute;
   
-   margin-left: 2rem;
+   margin-left: 1rem;
    padding-top: 0rem;
    font-size: 1.1rem;
     }
@@ -927,14 +946,25 @@ padding-bottom: 2.5rem;
  line-height: 1rem;
 
 }
-.titre-footer
+.titre-footer1
 {
   font-size: 1rem;
   margin-bottom: 0.8rem;
- }
- h2.titre-footer
- {
    line-height: 1rem;
+ }
+ .titre-footer2
+ {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+   line-height: 1rem;
+ }
+ .titre-footer3
+ {
+  
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+     line-height: 1rem;
+   
  }
  
   
