@@ -55,6 +55,12 @@ li
   color:grey;
   text-decoration: none;
 }
+.Activités:hover
+{
+   
+  border-top: solid #0065FC 0.3rem;
+  padding-top: 2rem;
+}
 .Hébergements
 
 {
@@ -70,11 +76,16 @@ li
   text-decoration: none;
   color: #0065FC;
 }
-
+.Inscription:hover
+{
+  
+  border-top: solid #0065FC 0.3rem;
+  padding-top: 2rem;
+}
 h1
 
 {
-font-size: 1.3rem;
+font-size: 1.1rem;
 line-height: 1rem;
 margin: 0rem 6rem 0.5rem 0rem;
 }
@@ -106,6 +117,7 @@ input
   padding: 0.9rem 2rem;
   border: 0.1rem #f2f2f2 solid;
   margin: 0 0 0 0;
+  padding-left: 0.5rem;
 }
 
 
@@ -134,7 +146,7 @@ h2
   float: left;
 }
 
-form.search
+.search
 {
   display: flex;
 height: 45px
@@ -414,6 +426,7 @@ padding: 1rem 2rem 1rem 1rem;
       font-size: 1rem;
       padding-bottom: 2rem;
       padding-top: 2.5rem;
+      padding-left: 1rem;
     }
   
     
@@ -897,70 +910,68 @@ rgba(0,0,0,0.2);
 padding-bottom: 2.5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr) ;
-  grid-column-gap: 3rem;
+  grid-column-gap: 0rem;
   grid-row-gap: 3rem;
   width: 100%;
+  padding-top: 1rem;
   
   
   grid-template-areas: 
                 "a b c";
   align-items:flex-end;
 }
+.identique
+{
+  text-decoration: none;
+  color: black;
+}
 .footer-services1
 {
+  width: 19rem;
   grid-area: a;
-  width: max-content;
- 
   margin-left: 2rem;
-  margin-top: 2rem;
+  padding-bottom: 1rem;
   grid-area: a;
  
 
 }
 .footer-services2
 {
+  width: 15rem;
   grid-area:b;
-  width: 60%;
   margin-top: 0;
   margin-bottom: 2rem;
-  margin-left: 2rem;
+  
   grid-area:b;
 }
 .footer-services3
 {
   grid-area: c;
-  width: 25%;
   margin-top: 0;
   margin-bottom: 2rem;
-  margin-right: 8rem;
-  padding-right: 20rem;
+  width: 12rem;
   grid-area: c;
   
-  padding-left: 2rem;
+  padding-left: 0rem;
 }
 
-.texte-footer
-{
- font-size: 0.9rem;
- margin-left: 1rem;
- line-height: 1rem;
-
-}
 .titre-footer1
 {
   font-size: 1rem;
   margin-bottom: 0.8rem;
    line-height: 1rem;
+   width: 14rem;
  }
  .titre-footer2
  {
   font-size: 1rem;
   margin-bottom: 0.8rem;
    line-height: 1rem;
+   width: 15rem;
  }
  .titre-footer3
  {
-  
+  width: 7rem;
     font-size: 1rem;
     margin-bottom: 0.8rem;
      line-height: 1rem;

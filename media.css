@@ -138,19 +138,22 @@ button.boutton
       visibility: visible;
       border: 0.1rem #f2f2f2;
       display: inline-flex;
-      margin-top: 1rem;
+     background-color: #0065FC;
       left: 4rem;
+      height: 45px;
+      width: 45px;
+      border-radius: 15px 15px 15px 15px;
+      margin-left: -1rem;
   
   }
   i.fab.fa-sistrix::before
   {
       color: white;
-      height: fit-content;
-      padding: 1rem 1rem;
-      background-color: #0065FC;
-      border-radius: 15px 15px 15px 15px;
-      margin: 0 0 0 0;
-      margin-left:-2rem;
+      display: flex;
+     margin-top: 1rem;
+     margin-left: 1rem;
+     font-size: bold;
+
     
   }
 div.Filtres
@@ -199,7 +202,7 @@ h2.title-populaire
   }
   .gallery-populaires
 {
-  width: 85vw;
+  width: 80vw;
   margin-left: 0rem;
   margin-right: 0rem;
 }
@@ -398,52 +401,55 @@ div.afficher
   "c";
 
   grid-column-gap: 0rem;
-  grid-row-gap: 1rem;
+  grid-row-gap: 0rem;
   height: auto;
   width: 100vw;}
  
-
+ul.rangement
+{
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  margin-left: -0.5rem;
+ 
+}
   .footer-services1
   {
     grid-area: a;
-    width: max-content;
-   
-    margin-left: 2rem;
     margin-top: 2rem;
-    grid-area: a;}
-.titre-footer1{
-  width: 30vw;
+    margin-left: 1rem;
+    width: 29rem;
+   
+   }
+.titre-footer1
+{
+  padding-left: 0rem;
+  width:20rem; 
+  padding-left: 1rem;
 }
   .footer-services2
   {
     grid-area:b;
-    width: max-content;
+    
     margin-top: 0;
     margin-bottom: 0rem;
-    margin-left: 2rem;
     grid-area:b;
+    margin-left: 1rem;
+    width: 21rem;
   }
   .footer-services3
   {
     grid-area: c;
-    width: max-content;
+
     margin-top: 0;
     margin-bottom: 2rem;
-    
+    margin-left: 1rem;
     padding-right: 0rem;
     grid-area: c;
-    padding-left: 2rem;}
+    width: 16rem;
+  padding-left: 0;}
 
-  .texte-footer
-  {
-   font-size: 1.1rem;
-   margin-left: 1rem;
-   line-height: 1rem;}
-  .titre-footer
-  {
-    font-size: 1.3rem;
-    margin-bottom: 0.8rem;
-   }
+ 
   }
 
 
@@ -660,47 +666,36 @@ width: 40vw;}
   .footer-services1
   {
     grid-area: a;
-    width: 65vw;
-   
-    margin-left: 18vw;
     margin-top: 2rem;
-    grid-area: a;}
+    margin-left: 1rem;
+   }
 .titre-footer1
 {
-  width:43vw;
+  width:20rem;
 }
   .footer-services2
   {
     grid-area:b;
-    width: max-content;
+    
     margin-top: 0;
     margin-bottom: 0rem;
-    margin-left: 18vw;
     grid-area:b;
+    margin-left: 1rem;
   }
   .footer-services3
   {
     grid-area: c;
-    width: max-content;
+
     margin-top: 0;
     margin-bottom: 2rem;
-    
+    margin-left: 1rem;
     padding-right: 0rem;
     grid-area: c;
-    margin-left: 18vw;
+    
   padding-left: 0;}
 
 
-  .texte-footer
-  {
-   font-size: 1.1rem;
-   margin-left: 1rem;
-   line-height: 1rem;}
-  .titre-footer
-  {
-    font-size: 1.3rem;
-    margin-bottom: 0.8rem;
-   }
+  
  }
 
   /*----------ordi adaptation-----------*/
@@ -944,56 +939,8 @@ h2.title
   top: 66rem;
 }
 
-h2.titre-footer
-{
-  line-height: 1rem;
-}
-.footer-services1
-{
-  width: 19vw;
-}
-.footer-services2
-{width:16vw ;}
+
   }
-
-
-
-@media screen and (min-width:769px) and (max-width:1439px)
-{
-
-  .footer-services1{
-    width: 30vw;
-  }
-.footer-services3
-{
-  width:17vw;
-  padding-right: 0rem;
-  margin-bottom: 2rem;
-
-}
-.footer-services2
-{
-  width: 22vw;
-}
-.titre-footer1
-{
-  width: 24vw
-}
-.titre-footer2
-{
-  width:20vw;
-}
-.titre-footer3
-{
-  width: 12vw;
-}
-}
-
-
-
-
-
-
 
 
     /*---------------------4k-----------------------*/

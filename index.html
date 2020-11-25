@@ -1,7 +1,5 @@
-<!doctype html>
-<html>
-
-<head>
+<!doctype html><html>
+   <head>
    <meta charset="UTF-8">
    <link rel="stylesheet" href="styles.css" />
    <link rel="stylesheet" href="media.css" />
@@ -35,32 +33,33 @@
 
          <!--barre de recherche-->
          <section id="main">
-            <form action="" method="GET" class="search">
-               <div class="place-icon"><i class="fas fa-map-marker-alt"></i></div><input type="text" id="text"
-                  placeholder="Marseille, France"><button class="boutton">Rechercher</button>
-               <div class="loupe"><i class="fab fa-sistrix"></i></div>
-            </form>
-      </div>
-      <div class="Filtres">
-         <h2 class="filters">Filtres</h2>
-         <a class="filtre1" href="#"><i class="fas fa-money-bill-wave">
+             <div  class="search"> 
+
+                <div class="place-icon"><i class="fas fa-map-marker-alt"></i></div><input type="text" id="text"
+                   placeholder="Marseille, France"><button class="boutton">Rechercher</button>
+                 <div class="loupe"><i class="fab fa-sistrix"></i></div>
+              
+               </div></div>
+            <div class="Filtres">
+             <h2 class="filters">Filtres</h2>
+              <a class="filtre1" href="#"><i class="fas fa-money-bill-wave">
                <div class="economique">Économique</div>
-            </i></a>
-         <a class="filtre2" href="#"><i class="fas fa-child">
+             </i></a>
+            <a class="filtre2" href="#"><i class="fas fa-child">
                <div class="familial">Familial</div>
-            </i></a>
-         <a class="filtre3" href="#"><i class="fas fa-heart">
+             </i></a>
+             <a class="filtre3" href="#"><i class="fas fa-heart">
                <div class="romantique">Romantique</div>
-            </i></a>
-         <a class="filtre4" href="#"><i class="fas fa-dog">
+               </i></a>
+            <a class="filtre4" href="#"><i class="fas fa-dog">
                <div class="animaux">Animaux autorisés</div>
             </i></a>
-      </div>
-      <div class="information"><i class="fas fa-info">
+           </div>
+             <div class="information"><i class="fas fa-info">
             <div class="info">Plus de 500 logements sont disponibles dans cette ville</div>
-         </i></div>
-      </section>
-
+             </i></div>
+            </section>
+     
       <!------hebergements a marseille------>
 
       <section class="hebergements" id="first-part">
@@ -70,7 +69,7 @@
               
             </div>
             <article class="gallery-hebergements">
- <h2 class="titre-partie1">Hébergements à Marseille</h2>
+           <h2 class="titre-partie1">Hébergements à Marseille</h2>
                <div class="item1"><img class="hebergements-image"
                      src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                      alt="Auberge la cannebière" />
@@ -164,7 +163,7 @@
                            src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                            alt="hôtel le soleil du matin" />
                         <figcaption class="ordre">
-                           <h3 class="titre-hebergement-populaires">Hôtel le soleil du<br>matin</br></h3>
+                           <h3 class="titre-hebergement-populaires">Hôtel le soleil du<br>matin</h3></br>
                            <p class="caption-populaires">Nuit à partir de 128€</p>
                            <div class="grade-stars-populaires">
                               <i class="fas fa-star"></i>
@@ -194,7 +193,7 @@
                            src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                            alt="Hôtel tout bleu et blanc" />
                         <figcaption class="ordre">
-                           <h3 class="titre-hebergement-populaires">Hôtel tout bleu et<br>Blanc</br></h3>
+                           <h3 class="titre-hebergement-populaires">Hôtel tout bleu et<br>Blanc</h3></br>
                            <p class="caption-populaires">Nuit à partir de 68€</p>
                            <div class="grade-stars-populaires">
                               <i class="fas fa-star"></i>
@@ -208,9 +207,9 @@
                   </article>
                </div>
             </aside>
-         </div>
-      </section>
-      <!-----------------------------Activites à marseille---------------------------------->
+         </div></section>
+      
+      <!----------------------------Activites à marseille---------------------------------->
       <section class="activites" id="activites-part">
 
          <div class="activites-marseille">
@@ -220,7 +219,7 @@
             <article class="gallery-activites">
                <div class="port"><img class="activites-image-grande"
                      src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port" />
-                  <h3 class="titre-activites">Vieux Port</h3></a>
+                  <h3 class="titre-activites">Vieux Port</h3>
                </div>
                <div class="fort"><img class="activites-image-fort"
                      src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort de pomègues" />
@@ -253,21 +252,29 @@
          <div class="contenu-footer">
             <div class="footer-services1">
                <h2 class="titre-footer1">A propos</h2>
-               <p class="texte-footer">Fonctionnement du site</p>
-               <p class="texte-footer">Conditions générales de vente</p>
-               <p class="texte-footer">Données et confidentialité</p>
+               <ul class="rangement">
+                  <li><a class="identique" href="#">Fonctionnement du site</a></li>
+                  <li><a class="identique" href="#">Conditions générales de vente</a></li>
+                  <li><a class="identique" href="#">Données et confidentialité</a></li>
+               </ul>
+              
             </div>
 
             <div class="footer-services2">
                <h2 class="titre-footer2">Nos hébergements</h2>
-               <p class="texte-footer">Charte qualité</p>
-               <p class="texte-footer">Soumettre votre hôtel</p>
+               <ul class="rangement">
+                  <li><a class="identique" href="#">Charte qualité</a></li>
+                  <li><a class="identique" href="#">Soumettre votre hôtel</a></li>
+               </ul>
+               
             </div>
 
             <div class="footer-services3">
                <h2 class="titre-footer3">Assitance</h2>
-               <p class="texte-footer">Centre d'aide</p>
-               <p class="texte-footer">Nous contacter</p>
+               <ul class="rangement">
+                  <li><a class="identique" href="#">Centre d'aide</a></li>
+                  <li><a class="identique" href="#">Nous contacter</a></li>
+               </ul>
             </div>
          </div>
 
