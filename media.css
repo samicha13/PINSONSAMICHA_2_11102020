@@ -79,10 +79,7 @@
       
       
     }
-    li
-    {
-      width: 50%;
-    }
+   
     
     .Inscription
     {
@@ -403,7 +400,7 @@ div.afficher
   grid-column-gap: 0rem;
   grid-row-gap: 0rem;
   height: auto;
-  width: 100vw;}
+  }
  
 ul.rangement
 {
@@ -411,20 +408,23 @@ ul.rangement
   flex-direction: column;
   line-height: 2rem;
   margin-left: -0.5rem;
+  padding:0 0 0 0;
  
 }
+
   .footer-services1
   {
     grid-area: a;
     margin-top: 2rem;
     margin-left: 1rem;
-    width: 29rem;
+    width: 22rem;
+  
    
    }
 .titre-footer1
 {
   padding-left: 0rem;
-  width:20rem; 
+  width:19rem; 
   padding-left: 1rem;
 }
   .footer-services2
