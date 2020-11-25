@@ -199,7 +199,7 @@ h2.title-populaire
   }
   .gallery-populaires
 {
-  width: 80vw;
+  
   margin-left: 0rem;
   margin-right: 0rem;
 }
@@ -1068,5 +1068,22 @@ h2.title
     width: 12vw;
     height:150px;
    
-    }
+  }
+  .contenu-footer
+  {
+    width: 175rem;
+    margin-left: -40rem;
+  }
+  .footer-services1
+  {
+    margin-left: 42rem;
+  }
+  .footer-services2
+  {
+    margin-left: 13rem;
+  }
+  .footer-services3
+  {
+    margin-left: -10rem;
+  }
   }
