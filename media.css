@@ -51,12 +51,12 @@
        text-decoration: none;
        border-top: 0rem solid;
        border-bottom: 0.3rem solid #0065FC;
-       width: 87%;
+       width: 75%;
        display: flex;
-       font-size: 1.3rem;
+       font-size: 1rem;
        padding-bottom: 0.5rem;
       padding-top: 0;
-      padding-left: 2rem;
+      padding-left: 3rem;
       padding-right: 2rem;
       margin-left: -2rem;
       margin-right: 0rem;
@@ -71,9 +71,9 @@
       
       padding-bottom: 0.5rem;
       padding-right: 0rem;
-     margin-right: 5.3rem;
+     margin-right: 7rem;
      margin-left: -4rem;
-      font-size: 1.3rem;
+      font-size: 1rem;
     justify-content: center;
       width: 163%;
       
@@ -89,7 +89,7 @@
       top: 2rem;
       left: 16rem;
      
-    font-size: 1.3rem;
+    font-size: 1rem;
       font-weight: bold;
     }
     
@@ -97,23 +97,34 @@
   h1
 
 {
-font-size: 1.1rem;
+font-size: 1.3rem;
 line-height: 2rem;
-width: 15rem;
-margin: 0 0 0 0;
+width: 18rem;
+margin-left: 1rem;
+
+
+margin-bottom: 0;
 
 
 }
 
-.description
+div.description
 {
     width: 20rem;
+    margin-left: 0rem;
+    margin-left: 0rem;
 }
 span
 { color:black;
 font-size: 0.9rem;
-line-height: 3rem;
+line-height: 2rem;
+margin-left: 1rem;
 
+  }
+  div.search
+  {
+    margin-left: 1rem;
+    margin-top: 2rem;
   }
 
   form.search
@@ -122,7 +133,9 @@ line-height: 3rem;
   }
  input#text
  {
-     padding: 0.5rem 1.5rem;
+     padding: 0rem -0.5rem 0 3rem;
+     font-size: 1rem;
+     margin-right: 4px;
      
  }
 button.boutton
@@ -155,37 +168,58 @@ button.boutton
   }
 div.Filtres
   {
+    margin-left: 0;
+    padding-left: 0;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(5, 1fr);
+      grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "a a"
                          "b c"
                          "d d"
                          "e e";
     grid-row-gap: 1rem;
   }
-  .filter
+  .filters
   {
     grid-area: a;
+    font-size: 1.2rem;
   }
 .filtre1
 {
   grid-area: b;
+  width: 6.1rem;
+  margin-left: 1rem;
 }
 .filtre2
 {
   grid-area: c;
+  width: 4rem;
+  margin-left: 0.5rem;
 }
 .filtre3
 {
+  width: 5.9rem;
   grid-area: d;
+  margin-left: 1rem;
 }
 .filtre4
 {
+  width: 9rem;
   grid-area: e;
+  margin-left: 1rem;
+}
+
+div.information
+{
+  padding-left: 2rem;
+}
+i.fas.fa-info::before
+{
+  left:0rem;
 }
 h2.title-populaire
-{padding-left: 0rem;}
+{padding-left: 0rem;
+margin-left:-0.9rem ;}
 
   div.les-plus-populaires
   {
@@ -202,25 +236,34 @@ h2.title-populaire
   
   margin-left: 0rem;
   margin-right: 0rem;
+  padding-bottom: 0.5rem;
 }
 .item7
 {
-width: 82vw;
-
+width: 86vw;
+margin-bottom: 1rem;
+margin-left: -1rem;
 }
 .item8
 {
-  width:82vw
+  width:86vw;
+  margin-bottom:1rem;
+  margin-left: -1rem;
 }
 .item9
 {
-  width: 82vw;
+  width: 86vw;
+  margin-bottom: 1rem;
+  margin-left: -1rem;
 }
 .hebergements-images-populaires
 {
   width: 30vw;
 }
-
+.titre-partie1
+{
+  margin-left: -0.9rem;
+}
 
 .gallery-hebergements
     {
@@ -237,7 +280,7 @@ width: 82vw;
       width: 20rem;
       height: fit-content;
       margin-left: 0;
-      margin-top:3rem;
+      margin-top:0rem;
       margin-bottom: 0;
       padding-bottom: 0;
       padding-right: 0rem;
@@ -259,7 +302,7 @@ width: 82vw;
     }
     .hebergements-image
     {
-      width: 81vw;
+      width: 84vw;
     }
     .titre-partie1
     {
@@ -267,42 +310,42 @@ width: 82vw;
     }
     .item1 {
       grid-area: b;
-      width: 83vw;
-    margin-left: 0;
+      width: 86vw;
+    margin-left: -1rem;
     
     }
     .item2 {
       grid-area: c;
       
-      width: 83vw;
-      margin-left: 0;
+      width: 86vw;
+      margin-left: -1rem;
     }
     .item3 {
       grid-area: d;
-      width: 83vw;
-      margin-left: 0;
+      width: 86vw;
+      margin-left: -1rem;
     
     }
 
     .item4 {
       grid-area: e;
-      width: 82vw;
-      margin-left: 0;
+      width: 86vw;
+      margin-left: -1rem;
       margin-bottom: 0rem;
       
     }
     .item5 {
       grid-area: f;
-      width: 82vw;
+      width: 86vw;
       margin-bottom: 0rem;
-      margin-left: 0;
+      margin-left: -1rem;
   
     }
     .item6 {
       grid-area: g;
-      width: 82vw;
+      width: 86vw;
       margin-bottom: 0rem;
-      margin-left: 0;
+      margin-left: -1rem;
     
     }
 
@@ -310,6 +353,8 @@ div.afficher
 {
   grid-area: h;
   padding-top: 1rem;
+  padding-left: 0;
+  margin-left: -0.9rem;
   
 }
     .gallery-activites
@@ -327,64 +372,67 @@ div.afficher
     }
     .port {
       grid-area: a;
-      width: 85vw;
-      
+      width: 86vw;
+      margin-left: 1rem;
   height: 200px;
     }
     .fort {
       grid-area: b;
-      width: 85vw;
+      width: 86vw;
       height: 200px;
-      margin-left: 2rem;
+      margin-left: 1rem;
     }
     .iles {
       grid-area: c;
-      width: 85vw;
-     margin-left: 2rem;
+      width: 86vw;
+     margin-left: 1rem;
       height: 200px;
     }
     .calanques {
       grid-area: d;
-      width: 85vw;
+      width: 86vw;
       height: 200px;
-      margin-left: 2rem;
+      margin-left: 1rem;
     }
     .garde {
       grid-area: e;
-     width: 85vw;
+     width: 86vw;
       height: 200px;
-      margin-left: 2rem;
+      margin-left: 1rem;
       margin-right: 0;
       margin-bottom: 0;
     }
     .parc{
       grid-area: f;
-     width: 85vw;
+     width: 86vw;
       height: 200px;
-      margin-left: 2rem;
+      margin-left: 1rem;
       margin-right: 0;
      
     }    
-
+.activites-marseille
+{
+  margin-top: -1rem;
+}
 .activites-image
 {
-  width: 85vw;
+  width: 86vw;
   height: 150px;
 }
 
 .activites-image-grande
 {
-  width: 85vw;
+  width: 86vw;
   height: 150px;
 }
 .activites-image-iles
 {
-  width: 85vw;
+  width: 86vw;
   height: 150px;
 }
 .activites-image-fort
 {
-  width: 85vw;
+  width: 86vw;
   height: 150px;
 }
 
@@ -421,11 +469,20 @@ ul.rangement
   
    
    }
-.titre-footer1
+h3.titre-footer1
 {
   padding-left: 0rem;
   width:19rem; 
-  padding-left: 1rem;
+  margin-left: 0.9rem;
+  
+}
+h3.titre-footer2
+{
+  margin-left: 0.9rem;
+}
+h3.titre-footer3
+{
+  margin-left: 0.9rem;
 }
   .footer-services2
   {
@@ -471,13 +528,43 @@ ul.rangement
 
 @media screen and (min-width:426px) and (max-width:768px)
  {
-div.animaux
+  div.Filtres
+  {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "a a"
+                         "b c"
+                         "d e";
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+  }
+  .filters
+  {
+    grid-area: a;
+    
+  }
+.filtre1
 {
-  margin-top: 1rem;
+  grid-area: b;
+  width: 7rem;
 }
-i.fas.fa-dog::before
+.filtre2
 {
-  margin-top: 1rem;
+  grid-area: c;
+  width: 5rem;
+ 
+}
+.filtre3
+{
+  grid-area: d;
+  width: 7rem;
+}
+.filtre4
+{
+  grid-area: e;
+  width:9rem;
+  
 }
 .gallery-populaires
 {
@@ -511,11 +598,12 @@ width: 80vw;
   grid-template-columns: repeat(2, 1fr) ;
   grid-column-gap: 1rem;
   grid-row-gap: 0rem;
-  width:74vw;
+  width:80vw;
   height: 46rem;
-  padding-left: 1rem;
+  margin-left: 0;
     margin-bottom: 3rem;
- 
+ padding-left: 1rem;
+ padding-right: 6rem;
   grid-template-areas: 
               
                 "a a"
@@ -533,35 +621,40 @@ width: 80vw;
 
 .item1 {
   grid-area: b;
-  width: 40vw;
+  width: 44vw;
+  margin-left: 0;
   
 }
 .item2 {
   grid-area: c;
-  width: 40vw;
-  
+  width: 44vw;
+  margin-left: 0;
 }
 .item3 {
   grid-area: d;
-  width: 40vw;
+  width: 44vw;
   margin-bottom: 0rem;
+  margin-left: 0;
 }
 .item4 {
   grid-area: e;
-  width: 40vw;
+  width: 44vw;
   margin-bottom: 0;
+  margin-left: 0;
 }
 .item5 {
   grid-area: f;
-  width: 40vw;
+  width: 44vw;
   padding-bottom: 0;
   margin-bottom: 0;
+  margin-left: 0;
 }
 .item6 {
   grid-area: g;
-  width: 40vw;
+  width: 44vw;
   padding-bottom: 0;
   margin-bottom: 0;
+  margin-left: 0;
 }
 .afficher
 {
@@ -569,12 +662,16 @@ width: 80vw;
   padding-top: 3rem;
 }
 .hebergements-image
-{width: 39.2vw;}
+{width: 43vw;}
 
+h2.title-section-deux
+{
+  padding-top: 2rem;
+}
 .gallery-activites
 {
   
-  padding-top: 4rem;
+  padding-top: 0rem;
 display: grid;
       grid-template-columns: repeat(2, 1fr) ;
       grid-column-gap: 1rem;
@@ -699,9 +796,53 @@ width: 40vw;}
  }
 
   /*----------ordi adaptation-----------*/
-
+@media screen and (min-width:769px) and (max-width:860px)
+{
+  div.Filtres
+  {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "a a"
+                         "b c"
+                         "d e";
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+  }
+  .filters
+  {
+    grid-area: a;
+    
+  }
+.filtre1
+{
+  grid-area: b;
+  width: 7rem;
+}
+.filtre2
+{
+  grid-area: c;
+  width: 5rem;
+ 
+}
+.filtre3
+{
+  grid-area: d;
+  width: 7rem;
+}
+.filtre4
+{
+  grid-area: e;
+  width:9rem;
+ 
+}
+}
   @media screen and (min-width:769px) and (max-width:1190px)
 {
+
+
+
+
   .gallery-populaires{
 
     
@@ -822,7 +963,7 @@ width: 25vw;
 }
 h2.title-section-deux
 {
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 .hebergements-images-populaires
@@ -832,7 +973,7 @@ h2.title-section-deux
        .gallery-activites
         {
   
-        padding-top: 5rem;
+        padding-top: 0rem;
      display: grid;
       grid-template-columns: repeat(4, 1fr) ;
       grid-column-gap: 1.5rem;
