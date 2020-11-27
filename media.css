@@ -79,7 +79,10 @@
       
       
     }
-   
+   .Activités:hover
+   {
+     border-top: none;
+   }
     
     .Inscription
     {
@@ -219,7 +222,7 @@ i.fas.fa-info::before
 }
 h2.title-populaire
 {padding-left: 0rem;
-margin-left:-0.9rem ;}
+margin-left:-0.6rem ;}
 
   div.les-plus-populaires
   {
