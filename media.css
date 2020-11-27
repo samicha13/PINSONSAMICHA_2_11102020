@@ -82,6 +82,12 @@
    .Activités:hover
    {
      border-top: none;
+     padding-top: 0;
+   }
+   .Inscription:hover
+   {
+     border-top: none;
+     padding-top: 0;
    }
     
     .Inscription
