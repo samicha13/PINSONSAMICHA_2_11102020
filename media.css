@@ -81,7 +81,7 @@
     }
    .Activités:hover
    {
-     border-top: none;
+     border-top: unset;
      padding-top: 0;
    }
    .Inscription:hover
