@@ -63,13 +63,16 @@
       }
       li
       {
-        margin-left: 0rem;
-        margin-right: 0;
+        margin-left: inherit;
+        margin-right: unset;
+
       }
+      
       li.nav1-portable
       {
 border-bottom: 0.3rem solid #0065FC;
-padding-left: 2rem;
+display: list-item;
+width: 50%;
       }
       .Activités
     
@@ -83,7 +86,11 @@ padding-left: 2rem;
     li.nav2-portable
     {
       border-bottom: 0.3rem solid #f2f2f2;
+      display: list-item;
+      width: 50%;
+     
     }
+    
    .Activités:hover
    {
      border-top: unset;
@@ -101,7 +108,7 @@ padding-left: 2rem;
       color: #0065FC;
       position: absolute;
       top: 2rem;
-      left: 16rem;
+     right: 5%;
      
     font-size: 1rem;
       font-weight: bold;
@@ -524,7 +531,10 @@ h3.titre-footer3
     width: 16rem;
   padding-left: 0;}
 
- 
+ li.alignement
+ {
+   margin-left: -0.5rem;
+ }
   }
 
 
@@ -546,6 +556,13 @@ h3.titre-footer3
 
 @media screen and (min-width:501px) and (max-width:768px)
  {
+.logo{
+  margin-right: 2rem;
+}
+  ul.onglet
+  {
+    display:contents ;
+  }
   div.Filtres
   {
       display: grid;

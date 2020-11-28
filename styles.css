@@ -46,7 +46,7 @@ li
 {
   
   display: inline;
-  margin-left: 1.5rem;
+  
   margin-right: 3rem;
 }
 .Activités
@@ -1037,8 +1037,16 @@ h3.titre-footer1
  {
 font-weight: normal;
  }
- 
-  
+ li.alignement
+ {
+   display: block;
+   margin-right: 0;
+ }
+
+ ul.rangement
+ {
+   padding-left: 1rem;
+ }
  
 
  
