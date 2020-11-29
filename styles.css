@@ -345,7 +345,7 @@ margin: 3rem;
    letter-spacing: normal;
    padding-left: 1rem;
    font-size: 1rem;
-   margin-left: 1rem;
+   margin-left: 1.5rem;
   
     }
     
@@ -457,7 +457,7 @@ h2.justification-titre
       font-weight: bold;
       font-size: 1rem;
       padding-bottom: 2rem;
-      padding-top: 2.5rem;
+      padding-top: 1.5rem;
       padding-left: 1rem;
     }
   
@@ -488,7 +488,7 @@ h2.justification-titre
       background-color: #f2f2f2;
       border-radius: 1rem 1rem 1rem 1rem;
       padding:1.5rem 7rem 1.5rem 2rem;
-      margin-left: 2rem;
+      margin-left: 3rem;
       
       
       
@@ -675,7 +675,7 @@ padding-top: 0.1rem;
 border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
 height: 7rem;
-width: 28vw;
+width: 24vw;
 margin-bottom: 2rem;
 
 box-shadow: 0 4px 8px 0
@@ -694,7 +694,7 @@ padding-bottom: 1rem;
   border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
 height: 7rem;
-width:28vw;
+width:24vw;
 margin-bottom: 2rem;
 cursor: pointer;
 
@@ -714,7 +714,7 @@ padding-bottom: 1rem;
   border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
 height: 7rem;
-width: 28vw;
+width: 24vw;
 margin-bottom: 2rem;
 
 box-shadow: 0 4px 8px 0
@@ -805,7 +805,7 @@ i.fas.fa-chart-line
 .activites-image-grande
 {
 background-size: cover;
-width: 20vw;
+width: 21vw;
 height:360px;
 border-radius: 1rem 1rem 0 0;
 display: flex;
@@ -814,7 +814,7 @@ cursor: pointer;
 }
 .activites-image
 { background-size: cover;
-  width:20vw;
+  width:21.1vw;
   height:135px;
   border-radius: 1rem 1rem 0 0;
   display: flex;
@@ -826,7 +826,7 @@ cursor: pointer;
 .activites-image-fort
 {
 background-size: cover;
-  width: 20vw;
+  width: 21vw;
   height:175px;
   border-radius: 1rem 1rem 0 0;
   display: flex;
@@ -839,7 +839,7 @@ background-size: cover;
 .activites-image-iles
 {
 background-size: cover;
-  width: 20vw;
+  width: 21vw;
   height:100px;
   border-radius: 1rem 1rem 0 0;
   display: flex;
@@ -864,11 +864,12 @@ display: grid;
       align-items:flex-end;
     }
     .port {
+      width: 21vw;
       grid-area: a;
       padding-right: 0rem;
       padding-top: 0rem;
       margin-right: 0rem;
-      margin-left: 2rem;
+      margin-left: 3rem;
       margin-bottom: 0rem;
       border-radius: 1rem 1rem 1rem 1rem;
 background-color: white;
@@ -883,7 +884,7 @@ rgba(0,0,0,0.2);
       border-radius: 1rem 1rem 1rem 1rem;
       background-color: white; 
       cursor: pointer;
-      width: 20vw;
+      width: 21vw;
       
       box-shadow: 0 4px 8px 0
       rgba(0,0,0,0.2);
@@ -893,7 +894,7 @@ rgba(0,0,0,0.2);
       border-radius: 1rem 1rem 1rem 1rem;
       background-color: white;
      cursor: pointer;
-     width: 20vw;
+     width: 21vw;
       
       
       
@@ -905,7 +906,7 @@ rgba(0,0,0,0.2);
       border-radius: 1rem 1rem 1rem 1rem;
       background-color: white;
      cursor: pointer;
-     width: 20vw;
+     width: 21vw;
       
       
       box-shadow: 0 4px 8px 0
@@ -923,6 +924,7 @@ rgba(0,0,0,0.2);
       rgba(0,0,0,0.2);
     }
     .parc{
+      width: 21vw;
       grid-area: f;
       border-radius: 1rem 1rem 1rem 1rem;
       background-color: white;
@@ -937,7 +939,7 @@ rgba(0,0,0,0.2);
     {
   
   
-   margin-left: 2rem;
+   margin-left: 3rem;
    padding-top: 0rem;
    font-size: 1.1rem;
     }
@@ -981,7 +983,7 @@ padding-bottom: 2.5rem;
 {
   width: 22rem;
   grid-area: a;
-  margin-left: 0.5rem;
+  margin-left: 2rem;
   line-height: 2rem;
   grid-area: a;
  
