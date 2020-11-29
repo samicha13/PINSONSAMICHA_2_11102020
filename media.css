@@ -248,7 +248,7 @@ i.fas.fa-info::before
 }
 h2.title-populaire
 {padding-left: 0rem;
-margin-left:0.5rem ;}
+margin-left:1rem ;}
 
   div.les-plus-populaires
   {
@@ -270,36 +270,31 @@ margin-left:0.5rem ;}
 }
 .item7
 {
-width: 86vw;
+width: 82vw;
 margin-bottom: 1rem;
-margin-left: 0.5rem;
-height: 8rem;
+margin-left: 1rem;
+height: 7rem;
 }
 .item8
 {
-  width:86vw;
+  width:82vw;
   margin-bottom:1rem;
-  margin-left: 0.5rem;
-  height: 8rem;
+  margin-left: 1rem;
+  height: 7rem;
 }
 .item9
 {
-  width: 86vw;
+  width: 82vw;
   margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  height: 8rem;
+  margin-left: 1rem;
+  height: 7rem;
 }
 .hebergements-images-populaires
 {
-  width: 30vw;
-  height: 8.5rem;
+  width: 28vw;
+  height: 7.5rem;
 }
-.titre-partie1
-{
-  margin-top: 4rem;
-  font-size: 1.5rem;
-  margin-left: -1rem;
-}
+
 
 .gallery-hebergements
     {
@@ -312,7 +307,7 @@ height: 8rem;
      
       background-color:white;
       border-radius: 0 0 0 0;
-      margin-left: 1rem;
+      margin-left: 1.5rem;
       width: 20rem;
       height: fit-content;
       margin-top:0rem;
@@ -337,16 +332,19 @@ height: 8rem;
     }
     .hebergements-image
     {
-      width: 84vw;
+      width: 80vw;
       height: 9rem;
     }
     .titre-partie1
     {
       grid-area: a;
+      margin-top: 4rem;
+  font-size: 1.2rem;
+  margin-left: -1rem;
     }
     .item1 {
       grid-area: b;
-      width: 86vw;
+      width: 82vw;
     margin-left: -1rem;
     height: 14.1rem;
     
@@ -354,34 +352,34 @@ height: 8rem;
     .item2 {
       grid-area: c;
       
-      width: 86vw;
+      width: 82vw;
       margin-left: -1rem;
       height: 14.1rem;
     }
     .item3 {
       grid-area: d;
-      width: 86vw;
+      width: 82vw;
       margin-left: -1rem;
       height: 14.1rem;
     }
 
     .item4 {
       grid-area: e;
-      width: 86vw;
+      width: 82vw;
       margin-left: -1rem;
       margin-bottom: 0rem;
       height: 14.1rem; 
     }
     .item5 {
       grid-area: f;
-      width: 86vw;
+      width: 82vw;
       margin-bottom: 0rem;
       margin-left: -1rem;
       height: 14.1rem;
     }
     .item6 {
       grid-area: g;
-      width: 86vw;
+      width: 82vw;
       margin-bottom: 0rem;
       margin-left: -1rem;
       height: 14.1rem;
@@ -398,13 +396,13 @@ div.afficher
 }
 h2.title-section-deux
 {
-  margin-left: 2rem;
+  margin-left: 2.5rem;
     padding-top: 0rem;
     font-size: 1.3rem;
 }
     .gallery-activites
     {
-      margin-left: 1rem;
+      margin-left: 1.5rem;
         margin-top: 0rem;
       grid-template-columns: repeat(1,6fr);
       grid-template-areas: 
@@ -419,31 +417,31 @@ h2.title-section-deux
     }
     .port {
       grid-area: a;
-      width: 86vw;
+      width: 82vw;
       margin-left: 1rem;
   height: 14.1rem;
     }
     .fort {
       grid-area: b;
-      width: 86vw;
+      width: 82vw;
       height: 14.1rem;
       margin-left: 1rem;
     }
     .iles {
       grid-area: c;
-      width: 86vw;
+      width: 82vw;
      margin-left: 1rem;
       height: 14.1rem;
     }
     .calanques {
       grid-area: d;
-      width: 86vw;
+      width: 82vw;
       height: 14.1rem;
       margin-left: 1rem;
     }
     .garde {
       grid-area: e;
-     width: 86vw;
+     width: 82vw;
       height: 14.1rem;
       margin-left: 1rem;
       margin-right: 0;
@@ -451,7 +449,7 @@ h2.title-section-deux
     }
     .parc{
       grid-area: f;
-     width: 86vw;
+     width: 82vw;
       height: 14.1rem;
       margin-left: 1rem;
       margin-right: 0;
@@ -463,23 +461,23 @@ h2.title-section-deux
 }
 .activites-image
 {
-  width: 86vw;
+  width: 82vw;
   height: 11rem;
 }
 
 .activites-image-grande
 {
-  width: 86vw;
+  width: 82vw;
   height: 11rem;
 }
 .activites-image-iles
 {
-  width: 86vw;
+  width: 82vw;
   height: 11rem;
 }
 .activites-image-fort
 {
-  width: 86vw;
+  width: 82vw;
   height: 11rem;
 }
 
